@@ -1,9 +1,10 @@
 function getFormvalue() {
     //Write your code here
 	const inps = document.querySelectorAll("input");
-	let fname = inps[0].value;
-	let lname = inps[1].value;
-	alert(fname+" "+lname);
+	let firstname = inps[0].value;
+	let lastname = inps[1].value;
+	let fullname = firstname+" "+lastname;
+	alert(fullname);
 	
 
 }
